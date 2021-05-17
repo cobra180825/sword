@@ -1,4 +1,4 @@
-FROM node:10
-RUN git clone https://gitee.com/smallc/Sword.git
-WORKDIR Sword
-RUN npm install
+FROM node:12
+RUN git clone https://github.com/theprimone/ant-design-pro-plus.git
+WORKDIR ant-design-pro-plus
+RUN yarn install
